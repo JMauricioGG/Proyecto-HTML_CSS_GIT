@@ -1,0 +1,32 @@
+
+body {
+    font-family: Arial, sans-serif; 
+    background-color: #f0f0f0; 
+    color: #333; 
+    margin: 20px; 
+}
+
+
+h1 {
+    text-align: center; /* Centrar tu nombre */
+    color: #223548; /* Azul oscuro */
+    margin-bottom: 30px;
+}
+
+/* Sección "Acerca de mi" */
+#acerca-de-mi {
+    background-color: #c6a6a6; /* Fondo blanco */
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra suave */
+    max-width: 800px;
+    margin: 0 auto; /* Centrar la sección */
+}
+
+#acerca-de-mi h2 {
+    color: #e74c3c; /* Rojo suave para el título */
+}
+
+#acerca-de-mi p {
+    line-height: 1.6; /* Separación entre líneas */
+}
