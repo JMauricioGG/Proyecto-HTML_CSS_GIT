@@ -21,7 +21,7 @@ h1 {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
     max-width: 800px;
     margin: 0 auto; 
-
+}
 #acerca-de-mi h2 {
     color: #e74c3c; 
 }
@@ -74,4 +74,47 @@ h1 {
 #form-contacto button:hover {
     background-color: #34495e;
 }
-  
+
+#persona {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+#persona h2 {
+    color: #e74c3c;
+    margin-bottom: 15px;
+}
+
+.persona-contenido {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.persona-contenido img {
+    width: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.persona-contenido p {
+    line-height: 1.6;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#persona a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #2c3e50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#persona a:hover {
+    text-decoration: underline;
+}
